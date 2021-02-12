@@ -33,8 +33,8 @@ est basée sur Spring Cloud et la partie Frontend Web est basée sur Angular ou 
 
 ### Implémentation du Micro-service pour la gestion des comptes et des opérations.
 - #### Créer les entités JPA Compte et Operation
-#### - Créer les interfaces JPA Repository basées sur Spring Data
-#### - Créer une couche service (Interface et Implémentation) permettant d’implémenter les spécifications fonctionnelles suivantes en utilisant une
+- #### Créer les interfaces JPA Repository basées sur Spring Data
+- #### Créer une couche service (Interface et Implémentation) permettant d’implémenter les spécifications fonctionnelles suivantes en utilisant une
 interface OpenFeign pour l’accès aux données des clients :
 - Ajouter un compte
 - Effectuer un versement d’un montant dans un compte
@@ -44,11 +44,11 @@ interface OpenFeign pour l’accès aux données des clients :
 pagination.
 - Consulter un Compte contenant les informations sur le client.
 - Activer ou suspendre un compte
-#### - Créer une RestController qui permet d’exposer les opérations de la couche
+- #### Créer une RestController qui permet d’exposer les opérations de la couche
 service via RESTful.
-#### - Tester le micro-service
+- #### Tester le micro-service
 
 ### Mettre en place les services techniques :
-#### - Spring Cloud Gateway
-#### - Eureka Discovery Service
+- #### Spring Cloud Gateway
+- #### Eureka Discovery Service
 ### Tester l’application à travers la Gateway.
